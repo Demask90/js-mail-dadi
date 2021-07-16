@@ -4,6 +4,7 @@
 
 //Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
+
 var numero_giocatore = Math.floor(Math.random() * 6) + 1;
 console.log("Numero Giocatore: " + numero_giocatore);
 document.getElementById("dado_giocatore").innerHTML ="Dado Giocatore " + numero_giocatore;
